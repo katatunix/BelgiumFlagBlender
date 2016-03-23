@@ -14,27 +14,27 @@ namespace Belgium
 	{
 		private Avatar avatar;
 
-		public MainForm()
+		public MainForm(Avatar avatar)
 		{
 			InitializeComponent();
-			avatar = new Avatar(Properties.Resources.belgium);
+			this.avatar = avatar;
 		}
 
 		private void buttonOpen_Click(object sender, EventArgs e)
 		{
-			if (openFileDialog1.ShowDialog() == DialogResult.OK) {
-				 load(openFileDialog1.FileName);
+			if (openFileDialog.ShowDialog() == DialogResult.OK) {
+				 load(openFileDialog.FileName);
 			}
 		}
 
 		private void load(String path) {
-			this.pictureBox1.Image = avatar.blend(new Bitmap(path));
+			this.pictureBox.Image = avatar.blend(new Bitmap(path));
 		}
 
 		private void buttonSave_Click(object sender, EventArgs e)
 		{
-			if (saveFileDialog1.ShowDialog() == DialogResult.OK) {
-				this.pictureBox1.Image.Save(saveFileDialog1.FileName);
+			if (saveFileDialog.ShowDialog() == DialogResult.OK) {
+				this.pictureBox.Image.Save(saveFileDialog.FileName);
 			}
 		}
 	}

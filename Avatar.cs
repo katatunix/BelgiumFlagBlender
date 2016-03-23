@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Belgium
 {
-	class Avatar
+	public class Avatar
 	{
 		private Bitmap belgium;
 
