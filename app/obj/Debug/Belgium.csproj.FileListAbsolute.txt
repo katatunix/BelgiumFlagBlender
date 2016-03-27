@@ -1,9 +1,0 @@
-D:\Projects\BelgiumFlagBlender\app\bin\Debug\BelgiumFlagBlender.exe.config
-D:\Projects\BelgiumFlagBlender\app\bin\Debug\BelgiumFlagBlender.exe
-D:\Projects\BelgiumFlagBlender\app\bin\Debug\BelgiumFlagBlender.pdb
-D:\Projects\BelgiumFlagBlender\app\obj\Debug\Belgium.csprojResolveAssemblyReference.cache
-D:\Projects\BelgiumFlagBlender\app\obj\Debug\Belgium.MainForm.resources
-D:\Projects\BelgiumFlagBlender\app\obj\Debug\BelgiumTest.Properties.Resources.resources
-D:\Projects\BelgiumFlagBlender\app\obj\Debug\Belgium.csproj.GenerateResource.Cache
-D:\Projects\BelgiumFlagBlender\app\obj\Debug\BelgiumFlagBlender.exe
-D:\Projects\BelgiumFlagBlender\app\obj\Debug\BelgiumFlagBlender.pdb

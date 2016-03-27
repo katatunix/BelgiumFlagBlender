@@ -1,7 +1,0 @@
-D:\Projects\BelgiumFlagBlender\test\bin\Debug\test.dll
-D:\Projects\BelgiumFlagBlender\test\bin\Debug\test.pdb
-D:\Projects\BelgiumFlagBlender\test\bin\Debug\BelgiumFlagBlender.exe
-D:\Projects\BelgiumFlagBlender\test\bin\Debug\BelgiumFlagBlender.pdb
-D:\Projects\BelgiumFlagBlender\test\obj\Debug\test.csprojResolveAssemblyReference.cache
-D:\Projects\BelgiumFlagBlender\test\obj\Debug\test.dll
-D:\Projects\BelgiumFlagBlender\test\obj\Debug\test.pdb
