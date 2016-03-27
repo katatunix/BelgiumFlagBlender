@@ -1,0 +1,8 @@
+D:\Projects\BelgiumFlagBlender\app\bin\Release\BelgiumFlagBlender.exe.config
+D:\Projects\BelgiumFlagBlender\app\obj\Release\Belgium.MainForm.resources
+D:\Projects\BelgiumFlagBlender\app\obj\Release\BelgiumTest.Properties.Resources.resources
+D:\Projects\BelgiumFlagBlender\app\obj\Release\Belgium.csproj.GenerateResource.Cache
+D:\Projects\BelgiumFlagBlender\app\bin\Release\BelgiumFlagBlender.exe
+D:\Projects\BelgiumFlagBlender\app\bin\Release\BelgiumFlagBlender.pdb
+D:\Projects\BelgiumFlagBlender\app\obj\Release\BelgiumFlagBlender.exe
+D:\Projects\BelgiumFlagBlender\app\obj\Release\BelgiumFlagBlender.pdb
