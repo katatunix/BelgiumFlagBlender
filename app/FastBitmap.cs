@@ -41,9 +41,13 @@ namespace Belgium
 			unsafe
 			{
 				byte* p = ptr + y * bitmapData.Stride + x * bytesPerPixel;
-				byte alpha = bytesPerPixel <= 3 ? (byte)255 : p[3];
+				byte alpha = hasAlpha() ? p[3] : (byte)255;
 				return Color.FromArgb(alpha, p[2], p[1], p[0]);
 			}
+		}
+
+		private bool hasAlpha() {
+			return bytesPerPixel > 3;
 		}
 
 		public void pixel(int x, int y, Color color) {
@@ -53,7 +57,7 @@ namespace Belgium
 				p[2] = color.R;
 				p[1] = color.G;
 				p[0] = color.B;
-				if (bytesPerPixel > 3) {
+				if (hasAlpha()) {
 					p[3] = color.A;
 				}
 			}
